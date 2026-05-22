@@ -44,7 +44,7 @@ private:
 
     double sr = 44100.0;
     Parameters currentParams;
-    std::vector<<ChannelState> channels;
+    std::vector<ChannelState> channels;
     MeterData meterData;
 
     float computeGainReduction(float inputDb) const;
